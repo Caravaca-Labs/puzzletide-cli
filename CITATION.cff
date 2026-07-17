@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use PuzzleTide CLI in your work — especially the verifiable puzzle evals — please cite it as below."
+title: "PuzzleTide CLI"
+type: software
+authors:
+  - name: "Caravaca Labs"
+    website: "https://puzzletide.com"
+repository-code: "https://github.com/Caravaca-Labs/puzzletide-cli"
+url: "https://puzzletide.com"
+license: MIT
+version: 0.1.0
+date-released: "2026-07-16"
+abstract: >-
+  Local-first word search, crossword, and sudoku generator CLI with printable
+  PDF worksheets and verifiable, reproducible puzzle evaluation tasks for
+  benchmarking language models and agents.
+keywords:
+  - word search generator
+  - crossword generator
+  - sudoku generator
+  - puzzle generator
+  - llm evals
+  - agent skills

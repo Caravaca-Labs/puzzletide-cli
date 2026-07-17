@@ -1,0 +1,80 @@
+{
+  "name": "puzzletide",
+  "version": "0.1.0",
+  "description": "Word search generator, crossword generator, and sudoku generator + solver in one local-first CLI — printable PDF puzzle worksheets, themed word banks, verifiable LLM evals, and bundled agent skills.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/Caravaca-Labs/puzzletide-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caravaca-Labs/puzzletide-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Caravaca-Labs/puzzletide-cli/issues"
+  },
+  "keywords": [
+    "cli",
+    "puzzle-generator",
+    "word-search-generator",
+    "word-search",
+    "crossword-generator",
+    "crossword",
+    "sudoku-generator",
+    "sudoku-solver",
+    "sudoku",
+    "printable-puzzles",
+    "worksheets",
+    "pdf",
+    "agent-skills",
+    "pi-package",
+    "llm-evals"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "bin": {
+    "puzzletide": "./dist/cli.js",
+    "ptide": "./dist/cli.js"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "data",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "skills": [
+      "./skills"
+    ]
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node scripts/make-executable.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "build:wordbanks": "node scripts/build-wordbanks.mjs"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "fast-check": "^3.23.1",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  }
+}

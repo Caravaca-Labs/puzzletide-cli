@@ -1,0 +1,23 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Puzzle Generation",
+      "description": "Skills for generating word searches, crosswords, and sudoku with correct, verifiable grids.",
+      "skills": [
+        "puzzletide-word-search",
+        "puzzletide-crossword",
+        "puzzletide-sudoku"
+      ]
+    },
+    {
+      "title": "Worksheets & Testing",
+      "description": "Skills for printable puzzle PDFs and verifiable agent benchmarks.",
+      "skills": [
+        "puzzletide-printable-puzzles",
+        "puzzletide-agent-evals"
+      ]
+    }
+  ]
+}

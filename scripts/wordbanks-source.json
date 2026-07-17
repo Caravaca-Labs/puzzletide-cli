@@ -1,0 +1,222 @@
+{
+  "categories": [
+    { "slug": "animals", "title": "Animals" },
+    { "slug": "food", "title": "Food & Drink" },
+    { "slug": "nature", "title": "Nature & Science" },
+    { "slug": "everyday", "title": "Everyday Life" },
+    { "slug": "places", "title": "Places" },
+    { "slug": "seasonal", "title": "Seasonal" }
+  ],
+  "themes": [
+    {
+      "id": "animals/ocean-animals",
+      "title": "Ocean Animals",
+      "difficulty": "easy",
+      "description": "Creatures of the sea, from sharks to seahorses.",
+      "words": ["Shark", "Whale", "Dolphin", "Octopus", "Coral", "Crab", "Lobster", "Seahorse", "Jellyfish", "Starfish", "Seal", "Walrus", "Stingray", "Turtle", "Squid", "Clam"]
+    },
+    {
+      "id": "animals/farm-animals",
+      "title": "Farm Animals",
+      "difficulty": "easy",
+      "description": "Animals you would meet in the barnyard.",
+      "words": ["Cow", "Horse", "Sheep", "Goat", "Pig", "Chicken", "Rooster", "Duck", "Turkey", "Donkey", "Rabbit", "Goose", "Llama", "Mule", "Calf", "Lamb"]
+    },
+    {
+      "id": "animals/zoo-animals",
+      "title": "Zoo Animals",
+      "difficulty": "easy",
+      "description": "Favorites from a day at the zoo.",
+      "words": ["Lion", "Tiger", "Elephant", "Giraffe", "Zebra", "Monkey", "Gorilla", "Panda", "Kangaroo", "Penguin", "Hippo", "Rhino", "Flamingo", "Camel", "Otter", "Koala"]
+    },
+    {
+      "id": "animals/birds",
+      "title": "Birds",
+      "difficulty": "medium",
+      "description": "Birds of backyards, forests, and coasts.",
+      "words": ["Eagle", "Owl", "Robin", "Sparrow", "Hawk", "Falcon", "Parrot", "Crow", "Raven", "Hummingbird", "Woodpecker", "Cardinal", "Pelican", "Swan", "Pigeon", "Heron"]
+    },
+    {
+      "id": "animals/insects",
+      "title": "Insects & Bugs",
+      "difficulty": "medium",
+      "description": "Six-legged friends and garden crawlers.",
+      "words": ["Butterfly", "Bee", "Ant", "Beetle", "Dragonfly", "Ladybug", "Grasshopper", "Cricket", "Moth", "Firefly", "Caterpillar", "Wasp", "Mosquito", "Mantis", "Cicada"]
+    },
+    {
+      "id": "animals/dinosaurs",
+      "title": "Dinosaurs",
+      "difficulty": "hard",
+      "description": "Giants of the prehistoric world.",
+      "words": ["Tyrannosaurus", "Triceratops", "Stegosaurus", "Velociraptor", "Brachiosaurus", "Pterodactyl", "Fossil", "Jurassic", "Raptor", "Herbivore", "Carnivore", "Extinct", "Allosaurus", "Diplodocus"]
+    },
+    {
+      "id": "animals/pets",
+      "title": "Pets",
+      "difficulty": "easy",
+      "description": "Companions at home, furry and finned.",
+      "words": ["Puppy", "Kitten", "Hamster", "Goldfish", "Parakeet", "Rabbit", "Turtle", "Gerbil", "Ferret", "Leash", "Collar", "Aquarium", "Kennel", "Whiskers"]
+    },
+    {
+      "id": "food/fruits",
+      "title": "Fruits",
+      "difficulty": "easy",
+      "description": "Sweet picks from the orchard and market.",
+      "words": ["Apple", "Banana", "Orange", "Grape", "Strawberry", "Watermelon", "Peach", "Pear", "Cherry", "Mango", "Pineapple", "Kiwi", "Lemon", "Blueberry", "Raspberry", "Plum"]
+    },
+    {
+      "id": "food/vegetables",
+      "title": "Vegetables",
+      "difficulty": "easy",
+      "description": "Garden staples from carrots to corn.",
+      "words": ["Carrot", "Potato", "Broccoli", "Spinach", "Tomato", "Cucumber", "Pepper", "Onion", "Lettuce", "Celery", "Pumpkin", "Zucchini", "Cabbage", "Radish", "Corn", "Peas"]
+    },
+    {
+      "id": "food/desserts",
+      "title": "Desserts",
+      "difficulty": "easy",
+      "description": "Treats from the bakery and the sweet shop.",
+      "words": ["Cake", "Cookie", "Brownie", "Pudding", "Cupcake", "Donut", "Sundae", "Fudge", "Caramel", "Gelato", "Sorbet", "Muffin", "Tart", "Waffle", "Toffee"]
+    },
+    {
+      "id": "food/breakfast",
+      "title": "Breakfast",
+      "difficulty": "easy",
+      "description": "Morning plates and what goes on them.",
+      "words": ["Pancake", "Waffle", "Cereal", "Oatmeal", "Bacon", "Sausage", "Toast", "Bagel", "Omelet", "Yogurt", "Granola", "Juice", "Butter", "Honey", "Syrup"]
+    },
+    {
+      "id": "nature/weather",
+      "title": "Weather",
+      "difficulty": "medium",
+      "description": "From gentle drizzle to roaring storms.",
+      "words": ["Sunshine", "Rainbow", "Thunder", "Lightning", "Tornado", "Hurricane", "Blizzard", "Drizzle", "Breeze", "Hail", "Frost", "Forecast", "Cloud", "Fog", "Humidity"]
+    },
+    {
+      "id": "nature/space",
+      "title": "Space",
+      "difficulty": "medium",
+      "description": "Planets, rockets, and the night sky.",
+      "words": ["Planet", "Galaxy", "Asteroid", "Comet", "Meteor", "Nebula", "Orbit", "Rocket", "Astronaut", "Telescope", "Satellite", "Eclipse", "Gravity", "Jupiter", "Saturn", "Mars"]
+    },
+    {
+      "id": "nature/flowers",
+      "title": "Flowers",
+      "difficulty": "medium",
+      "description": "Blooms from the garden and the florist.",
+      "words": ["Rose", "Tulip", "Daisy", "Sunflower", "Orchid", "Lily", "Violet", "Daffodil", "Marigold", "Peony", "Lavender", "Petal", "Blossom", "Bouquet"]
+    },
+    {
+      "id": "nature/trees",
+      "title": "Trees & Forest",
+      "difficulty": "medium",
+      "description": "From acorns to towering redwoods.",
+      "words": ["Oak", "Maple", "Pine", "Birch", "Willow", "Cedar", "Redwood", "Spruce", "Acorn", "Branch", "Trunk", "Leaves", "Roots", "Forest", "Bark"]
+    },
+    {
+      "id": "nature/human-body",
+      "title": "Human Body",
+      "difficulty": "medium",
+      "description": "Anatomy from head to toe.",
+      "words": ["Skeleton", "Muscle", "Heart", "Lungs", "Brain", "Stomach", "Kidney", "Liver", "Nerve", "Artery", "Spine", "Elbow", "Ankle", "Shoulder", "Knuckle"]
+    },
+    {
+      "id": "everyday/colors",
+      "title": "Colors",
+      "difficulty": "easy",
+      "description": "Shades and hues across the palette.",
+      "words": ["Red", "Blue", "Green", "Yellow", "Purple", "Orange", "Turquoise", "Magenta", "Crimson", "Violet", "Indigo", "Scarlet", "Emerald", "Amber", "Ivory", "Maroon"]
+    },
+    {
+      "id": "everyday/clothing",
+      "title": "Clothing",
+      "difficulty": "easy",
+      "description": "What hangs in the closet, season to season.",
+      "words": ["Jacket", "Sweater", "Trousers", "Scarf", "Mittens", "Sneakers", "Sandals", "Pajamas", "Hoodie", "Blouse", "Vest", "Beanie", "Overalls", "Raincoat"]
+    },
+    {
+      "id": "everyday/school",
+      "title": "School Days",
+      "difficulty": "easy",
+      "description": "Around the classroom and the schoolyard.",
+      "words": ["Pencil", "Notebook", "Teacher", "Classroom", "Homework", "Recess", "Library", "Backpack", "Eraser", "Crayon", "Ruler", "Scissors", "Locker", "Quiz", "Desk"]
+    },
+    {
+      "id": "everyday/jobs",
+      "title": "Jobs & Careers",
+      "difficulty": "medium",
+      "description": "People who keep the world running.",
+      "words": ["Doctor", "Teacher", "Firefighter", "Chef", "Farmer", "Pilot", "Nurse", "Dentist", "Plumber", "Electrician", "Carpenter", "Artist", "Lawyer", "Engineer", "Barber"]
+    },
+    {
+      "id": "everyday/sports",
+      "title": "Sports",
+      "difficulty": "easy",
+      "description": "Games played on fields, courts, and slopes.",
+      "words": ["Soccer", "Basketball", "Baseball", "Tennis", "Hockey", "Swimming", "Volleyball", "Golf", "Rugby", "Cricket", "Boxing", "Cycling", "Skiing", "Surfing", "Marathon"]
+    },
+    {
+      "id": "everyday/music",
+      "title": "Music",
+      "difficulty": "medium",
+      "description": "Instruments and the sounds they make.",
+      "words": ["Guitar", "Piano", "Violin", "Drums", "Trumpet", "Flute", "Saxophone", "Cello", "Harp", "Clarinet", "Banjo", "Melody", "Rhythm", "Chorus", "Orchestra"]
+    },
+    {
+      "id": "everyday/transportation",
+      "title": "Transportation",
+      "difficulty": "easy",
+      "description": "Ways to get from here to there.",
+      "words": ["Airplane", "Bicycle", "Subway", "Ferry", "Helicopter", "Scooter", "Train", "Truck", "Motorcycle", "Sailboat", "Taxi", "Tram", "Canoe", "Bus"]
+    },
+    {
+      "id": "places/countries",
+      "title": "Countries",
+      "difficulty": "medium",
+      "description": "Nations around the globe.",
+      "words": ["Canada", "Brazil", "France", "Japan", "Egypt", "India", "Australia", "Mexico", "Italy", "Spain", "Germany", "Kenya", "Norway", "Greece", "Portugal", "Thailand"]
+    },
+    {
+      "id": "places/cities",
+      "title": "World Cities",
+      "difficulty": "medium",
+      "description": "Capitals and famous cities worldwide.",
+      "words": ["Paris", "Tokyo", "London", "Sydney", "Cairo", "Toronto", "Madrid", "Berlin", "Athens", "Dublin", "Vienna", "Prague", "Lisbon", "Oslo", "Amsterdam"]
+    },
+    {
+      "id": "places/around-town",
+      "title": "Around Town",
+      "difficulty": "easy",
+      "description": "Stops on an errand-filled afternoon.",
+      "words": ["Bakery", "Library", "Museum", "Hospital", "Pharmacy", "Grocery", "Park", "Cinema", "Stadium", "Airport", "Harbor", "Market", "Fountain", "Bridge"]
+    },
+    {
+      "id": "seasonal/winter-holidays",
+      "title": "Winter Holidays",
+      "difficulty": "easy",
+      "description": "Cozy December traditions and trimmings.",
+      "words": ["Snowflake", "Reindeer", "Sleigh", "Ornament", "Garland", "Mistletoe", "Carol", "Stocking", "Gingerbread", "Candle", "Wreath", "Ribbon", "Fireplace", "Cocoa", "Present"]
+    },
+    {
+      "id": "seasonal/halloween",
+      "title": "Halloween",
+      "difficulty": "easy",
+      "description": "Spooky night of costumes and candy.",
+      "words": ["Pumpkin", "Ghost", "Witch", "Spider", "Skeleton", "Vampire", "Costume", "Candy", "Haunted", "Cauldron", "Broomstick", "Zombie", "Lantern", "Spooky"]
+    },
+    {
+      "id": "seasonal/summer",
+      "title": "Summer",
+      "difficulty": "easy",
+      "description": "Long days at the beach and the backyard.",
+      "words": ["Beach", "Sunscreen", "Popsicle", "Swimsuit", "Sandcastle", "Lemonade", "Vacation", "Campfire", "Fireworks", "Seashell", "Sunglasses", "Picnic", "Hammock", "Surfboard"]
+    },
+    {
+      "id": "seasonal/spring",
+      "title": "Spring",
+      "difficulty": "easy",
+      "description": "The season of blossoms and rain showers.",
+      "words": ["Blossom", "Rainfall", "Tulip", "Butterfly", "Nest", "Puddle", "Umbrella", "Garden", "Seedling", "Robin", "Meadow", "Sprout", "Breeze", "Hatch"]
+    }
+  ]
+}
