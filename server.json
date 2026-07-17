@@ -1,0 +1,22 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.caravaca-labs/puzzletide",
+  "title": "PuzzleTide",
+  "description": "Local-first puzzle generation: word search, crossword, and sudoku generators, sudoku solver, printable PDF worksheets, and verifiable LLM evals.",
+  "version": "0.2.0",
+  "websiteUrl": "https://puzzletide.com",
+  "repository": {
+    "url": "https://github.com/Caravaca-Labs/puzzletide-cli",
+    "source": "github"
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "puzzletide-mcp",
+      "version": "0.2.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}

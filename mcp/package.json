@@ -1,0 +1,58 @@
+{
+  "name": "puzzletide-mcp",
+  "version": "0.2.0",
+  "mcpName": "io.github.caravaca-labs/puzzletide",
+  "description": "MCP server for puzzle generation — word search generator, crossword generator, sudoku generator + solver, printable PDF worksheets, and verifiable LLM evals for Claude Desktop, Cursor, and any MCP client.",
+  "license": "MIT",
+  "type": "module",
+  "homepage": "https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/mcp.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caravaca-Labs/puzzletide-cli.git",
+    "directory": "mcp"
+  },
+  "bugs": {
+    "url": "https://github.com/Caravaca-Labs/puzzletide-cli/issues"
+  },
+  "keywords": [
+    "mcp",
+    "mcp-server",
+    "model-context-protocol",
+    "puzzle-generator",
+    "word-search-generator",
+    "crossword-generator",
+    "sudoku-generator",
+    "sudoku-solver",
+    "printable-puzzles",
+    "llm-evals"
+  ],
+  "bin": {
+    "puzzletide-mcp": "./dist/server.js"
+  },
+  "files": [
+    "dist",
+    "server.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').chmodSync('dist/server.js', 0o755)\"",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "puzzletide": "^0.2.0",
+    "zod": "^3.25.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^4.1.10"
+  }
+}

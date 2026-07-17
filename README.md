@@ -9,7 +9,9 @@ Keyword rationale (d4s / DataForSEO, 2026-07-16, google en):
   description, package.json description/keywords, and README H1/H2s.
 Contiguous phrases to keep intact: "word search generator", "crossword generator",
   "sudoku generator", "sudoku solver", "printable word search", "printable sudoku",
-  "expert sudoku", "daily sudoku", "LLM evals", "puzzle generator CLI".
+  "expert sudoku", "daily sudoku", "LLM evals", "puzzle generator CLI", "MCP server".
+Top-page deep links (GSC 2026-07, by clicks): mystery-and-murder printable word search (237),
+  /hangman (25), /printable (10), dyslexic-friendly blog post (9), /maker (4).
 Banned claims (not shipped): word search solver, crossword solver, anagram solver (word tools
   search only the 30 starter banks), MCP server, PNG output, AI clue generation,
   nonograms/cryptograms, speed guarantees for expert sudoku, "full English dictionary".
@@ -133,6 +135,11 @@ for i in 1 2 3 4 5; do
 done
 ```
 
+Prefer ready-made sheets? The
+[mystery and murder printable word search](https://puzzletide.com/word-search/vocabulary/mystery-and-murder/printable)
+is a reader favorite, with hundreds more at
+[printable puzzles](https://puzzletide.com/printable).
+
 ## Word banks and word tools
 
 30 starter themes (ocean animals, fruits, space, halloween, ...) — browse,
@@ -170,6 +177,28 @@ Five skills are included: word search, crossword, sudoku, printable puzzles,
 and agent evals. Each prefers the local CLI and checks `ptide`, `puzzletide`,
 then `npx puzzletide`. Skills never auto-install anything; agents should ask
 the user before installing.
+
+## MCP server for Claude Desktop, Cursor, and any MCP client
+
+The companion package [`puzzletide-mcp`](https://www.npmjs.com/package/puzzletide-mcp)
+exposes every non-interactive tool over the Model Context Protocol — the same
+word search generator, crossword generator, sudoku generator/solver, word
+tools, and evals, callable from Claude Desktop, Cursor, Windsurf, or any MCP
+client:
+
+```json
+{
+  "mcpServers": {
+    "puzzletide": {
+      "command": "npx",
+      "args": ["-y", "puzzletide-mcp"]
+    }
+  }
+}
+```
+
+See [docs/mcp.md](./docs/mcp.md) for tool names, arguments, and per-client
+setup.
 
 ## Verifiable LLM evals
 
@@ -220,6 +249,7 @@ Prefer a browser?
 - [PuzzleTide hangman](https://puzzletide.com/hangman)
 - [Printable puzzles](https://puzzletide.com/printable)
 - [Make your own puzzle](https://puzzletide.com/maker)
+- [Dyslexia-friendly word search fonts and settings](https://puzzletide.com/blog/dyslexic-friendly-word-search-font-and-settings)
 
 ## Privacy
 

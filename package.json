@@ -1,6 +1,6 @@
 {
   "name": "puzzletide",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Word search generator, crossword generator, and sudoku generator + solver in one local-first CLI — printable PDF puzzle worksheets, themed word banks, verifiable LLM evals, and bundled agent skills.",
   "license": "MIT",
   "type": "module",
@@ -27,7 +27,9 @@
     "pdf",
     "agent-skills",
     "pi-package",
-    "llm-evals"
+    "llm-evals",
+    "mcp",
+    "mcp-server"
   ],
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

@@ -56,3 +56,15 @@ export { wordSearchAscii, crosswordAscii, sudokuAscii } from './render/ascii.js'
 export { wordSearchSvg, crosswordSvg, sudokuSvg } from './render/svg.js';
 export { wordSearchPdf, crosswordPdf, sudokuPdf, type PaperSize } from './render/pdf.js';
 export { SeededRandom, hashSeed, resolveSeed, dailySeed } from './core/rng.js';
+export { CliError } from './core/errors.js';
+export {
+  listTools,
+  getTool,
+  searchTools,
+  buildAgentManifest,
+  type ToolDefinition,
+  type ToolOption,
+  type ToolResult,
+  type ToolContext,
+} from './core/registry.js';
+export { registerAllTools } from './tools/index.js';
