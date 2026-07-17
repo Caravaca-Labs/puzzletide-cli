@@ -24,6 +24,7 @@ IP rule: the package ships only the 30 generic starter themes in scripts/wordban
 [![npm package](https://img.shields.io/npm/v/puzzletide?label=npm)](https://www.npmjs.com/package/puzzletide)
 [![Docs](https://img.shields.io/badge/docs-GitHub-24292F)](https://github.com/Caravaca-Labs/puzzletide-cli/tree/main/docs)
 [![Agent skills](https://img.shields.io/badge/agent_skills-SKILL.md-0F766E)](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md)
+[![smithery badge](https://smithery.ai/badge/caravaca-labs/puzzletide)](https://smithery.ai/servers/caravaca-labs/puzzletide)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 Word search generator, crossword generator, and sudoku generator + solver in

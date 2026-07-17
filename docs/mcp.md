@@ -63,12 +63,15 @@ answer key from PDFs.
 
 `play_hangman` is interactive-only and not exposed over MCP.
 
-## Registry
+## Registries
 
 The server is published as
 [`io.github.catorch/puzzletide`](https://registry.modelcontextprotocol.io)
-(see `mcp/server.json`), and on npm as
-[`puzzletide-mcp`](https://www.npmjs.com/package/puzzletide-mcp).
+in the official MCP registry (see `mcp/server.json`), on npm as
+[`puzzletide-mcp`](https://www.npmjs.com/package/puzzletide-mcp), and on
+[Smithery](https://smithery.ai/servers/caravaca-labs/puzzletide) — where the
+[five PuzzleTide agent skills](https://smithery.ai/skills/caravaca-labs/puzzletide-word-search)
+are also available.
 
 ## Privacy
 
