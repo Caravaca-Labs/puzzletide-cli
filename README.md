@@ -201,6 +201,26 @@ client:
 See [docs/mcp.md](./docs/mcp.md) for tool names, arguments, and per-client
 setup.
 
+## Tools
+
+The MCP server (and `ptide run <tool-id>`) exposes 15 tools:
+
+- `puzzle_wordsearch_generate`: Generate a word search grid from custom words, files, or themed word banks — every placement verifiable, printable via PDF/SVG.
+- `puzzle_crossword_generate`: Generate an interlocking crossword with standard numbering and validated clues.
+- `puzzle_sudoku_generate`: Generate easy, medium, hard, or expert sudoku with a guaranteed unique solution.
+- `puzzle_sudoku_solve`: Solve a sudoku from its 81-character string and report whether the solution is unique.
+- `puzzle_sudoku_validate`: Validate a sudoku grid — conflicts, solvability, and solution uniqueness.
+- `words_categories`: List word bank categories.
+- `words_themes`: List or search the bundled themed word lists.
+- `words_list`: List the words in a theme, filtered by length or count.
+- `words_match`: Find words matching a crossword-style pattern (`c_r_l`).
+- `words_anagram`: Find anagrams of the given letters in the word bank.
+- `words_random`: Pick a random word, optionally from one theme.
+- `words_stats`: Word bank statistics.
+- `eval_generate`: Generate reproducible, objectively gradable puzzle tasks for benchmarking LLMs and agents.
+- `eval_check`: Grade answers to generated eval tasks by construction — no answer key trusted.
+- `play_daily`: Print today's daily sudoku (same for everyone on a UTC day).
+
 ## Verifiable LLM evals
 
 Puzzle answers are checkable without an answer key: a sudoku answer either
