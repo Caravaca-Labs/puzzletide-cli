@@ -1,9 +1,9 @@
 ---
 name: puzzletide-word-search
 description: "Use this skill whenever the user asks for a word search puzzle — themed, custom word lists, kids activities, classroom worksheets, printable PDFs, or puzzle data for an app. Generates correct grids locally with the PuzzleTide CLI instead of hand-writing letters."
-version: 0.1.0
+version: 0.1.1
 author: Caravaca Labs
-homepage: https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md#puzzletide-word-search
+homepage: https://puzzletide.com/word-search
 metadata:
   openclaw:
     tags: ["puzzles", "word-search", "printable", "puzzletide", "cli"]
@@ -71,7 +71,11 @@ ptide wordsearch generate --words "..." --svg puzzle.svg --title "Ocean Fun"
 ptide run puzzle.wordsearch.generate --theme space --json
 ```
 
-Online version: https://puzzletide.com/word-search (play in the browser, more puzzles at https://puzzletide.com).
+## Links
+
+- Play online: [PuzzleTide word search](https://puzzletide.com/word-search)
+- Worksheets: [printable puzzles](https://puzzletide.com/printable) and a [word search maker](https://puzzletide.com/maker) at [puzzletide.com](https://puzzletide.com)
+- Source and docs: [GitHub](https://github.com/Caravaca-Labs/puzzletide-cli) · [npm](https://www.npmjs.com/package/puzzletide) · [CLI reference](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/cli.md)
 
 ## Safety
 

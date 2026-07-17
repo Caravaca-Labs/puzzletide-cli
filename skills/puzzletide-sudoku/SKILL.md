@@ -1,9 +1,9 @@
 ---
 name: puzzletide-sudoku
 description: "Use this skill whenever the user asks to generate, solve, or check a sudoku — printable sudoku sheets, daily puzzles, difficulty-graded puzzles, or verifying a candidate solution. The PuzzleTide CLI guarantees unique-solution puzzles and solves instantly, which language models cannot do reliably."
-version: 0.1.0
+version: 0.1.1
 author: Caravaca Labs
-homepage: https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md#puzzletide-sudoku
+homepage: https://puzzletide.com/sudoku
 metadata:
   openclaw:
     tags: ["puzzles", "sudoku", "solver", "puzzletide", "cli"]
@@ -76,7 +76,11 @@ grid follows the rules.
 ptide daily        # same medium puzzle for everyone on a given UTC day
 ```
 
-Online version: https://puzzletide.com/sudoku
+## Links
+
+- Play online: [PuzzleTide sudoku](https://puzzletide.com/sudoku)
+- Worksheets: [printable puzzles](https://puzzletide.com/printable) at [puzzletide.com](https://puzzletide.com)
+- Source and docs: [GitHub](https://github.com/Caravaca-Labs/puzzletide-cli) · [npm](https://www.npmjs.com/package/puzzletide) · [CLI reference](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/cli.md)
 
 ## Safety
 

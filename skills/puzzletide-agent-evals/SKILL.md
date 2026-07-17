@@ -1,7 +1,7 @@
 ---
 name: puzzletide-agent-evals
 description: "Use this skill when the user wants verifiable reasoning tasks to benchmark or test an LLM or agent — reproducible puzzle task sets (sudoku, word search) with objective, by-construction grading. No answer key to trust: answers are verified against the rules and the grid."
-version: 0.1.0
+version: 0.1.1
 author: Caravaca Labs
 homepage: https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md#puzzletide-agent-evals
 metadata:
@@ -67,6 +67,11 @@ ptide eval check --tasks tasks.json --answers answers.json --json
 
 Returns per-task pass/fail with reasons and a summary score. Grading is
 deterministic and local.
+
+## Links
+
+- Source and docs: [GitHub](https://github.com/Caravaca-Labs/puzzletide-cli) · [npm](https://www.npmjs.com/package/puzzletide) · [CLI reference](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/cli.md)
+- From the makers of [puzzletide.com](https://puzzletide.com) — free [word search](https://puzzletide.com/word-search), [crossword](https://puzzletide.com/crossword), and [sudoku](https://puzzletide.com/sudoku) puzzles
 
 ## Safety
 

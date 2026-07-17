@@ -1,9 +1,9 @@
 ---
 name: puzzletide-printable-puzzles
 description: "Use this skill when the user wants printable puzzle worksheets — PDF activity sheets for classrooms, kids, parties, newsletters, or activity books. Produces print-ready word search, crossword, and sudoku PDFs (with solution pages) locally via the PuzzleTide CLI."
-version: 0.1.0
+version: 0.1.1
 author: Caravaca Labs
-homepage: https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md#puzzletide-printable-puzzles
+homepage: https://puzzletide.com/printable
 metadata:
   openclaw:
     tags: ["puzzles", "printable", "pdf", "worksheets", "puzzletide", "cli"]
@@ -67,7 +67,11 @@ ptide words themes --search halloween     # find theme ids
 - SVG/PDF titles come from `--title`; the default is the theme title.
 - Merge or rearrange pages with the user's preferred PDF tool if needed.
 
-More printable puzzles online: https://puzzletide.com/printable
+## Links
+
+- More worksheets: [printable puzzles](https://puzzletide.com/printable) at [puzzletide.com](https://puzzletide.com)
+- Play online: [word search](https://puzzletide.com/word-search) · [crossword](https://puzzletide.com/crossword) · [sudoku](https://puzzletide.com/sudoku)
+- Source and docs: [GitHub](https://github.com/Caravaca-Labs/puzzletide-cli) · [npm](https://www.npmjs.com/package/puzzletide) · [CLI reference](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/cli.md)
 
 ## Safety
 

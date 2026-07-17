@@ -1,9 +1,9 @@
 ---
 name: puzzletide-crossword
 description: "Use this skill whenever the user asks for a crossword puzzle — custom word/clue lists, themed crosswords, educational worksheets, or printable PDFs. Generates valid interlocking grids with standard numbering locally with the PuzzleTide CLI instead of hand-drawing grids."
-version: 0.1.0
+version: 0.1.1
 author: Caravaca Labs
-homepage: https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/agent-skills.md#puzzletide-crossword
+homepage: https://puzzletide.com/crossword
 metadata:
   openclaw:
     tags: ["puzzles", "crossword", "printable", "puzzletide", "cli"]
@@ -80,7 +80,11 @@ The PDF has three sections: empty numbered grid, clue list, and solution.
 `--json` returns the grid ("#" = black cell) plus across/down clues with
 coordinates — ready for rendering in an app.
 
-Online version: https://puzzletide.com/crossword
+## Links
+
+- Play online: [PuzzleTide crossword](https://puzzletide.com/crossword)
+- Worksheets: [printable puzzles](https://puzzletide.com/printable) at [puzzletide.com](https://puzzletide.com)
+- Source and docs: [GitHub](https://github.com/Caravaca-Labs/puzzletide-cli) · [npm](https://www.npmjs.com/package/puzzletide) · [CLI reference](https://github.com/Caravaca-Labs/puzzletide-cli/blob/main/docs/cli.md)
 
 ## Safety
 
