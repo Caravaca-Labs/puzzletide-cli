@@ -66,7 +66,7 @@ answer key from PDFs.
 ## Registry
 
 The server is published as
-[`io.github.caravaca-labs/puzzletide`](https://registry.modelcontextprotocol.io)
+[`io.github.catorch/puzzletide`](https://registry.modelcontextprotocol.io)
 (see `mcp/server.json`), and on npm as
 [`puzzletide-mcp`](https://www.npmjs.com/package/puzzletide-mcp).
 

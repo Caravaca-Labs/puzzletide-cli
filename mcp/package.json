@@ -1,7 +1,7 @@
 {
   "name": "puzzletide-mcp",
-  "version": "0.2.0",
-  "mcpName": "io.github.caravaca-labs/puzzletide",
+  "version": "0.2.1",
+  "mcpName": "io.github.catorch/puzzletide",
   "description": "MCP server for puzzle generation — word search generator, crossword generator, sudoku generator + solver, printable PDF worksheets, and verifiable LLM evals for Claude Desktop, Cursor, and any MCP client.",
   "license": "MIT",
   "type": "module",
