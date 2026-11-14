@@ -1,4 +1,4 @@
-// Builds the Smithery/desktop MCPB bundle (server.mcpb) for puzzletide-mcp.
+// Builds the Claude Desktop MCPB bundle (server.mcpb) for puzzletide-mcp.
 //
 // The bundle wraps the PUBLISHED npm package (with its node_modules), so
 // publish puzzletide-mcp to npm first, then run:
@@ -6,8 +6,7 @@
 //   npm i -g @anthropic-ai/mcpb   # once
 //   node scripts/build-mcpb.mjs   # from the mcp/ directory
 //
-// Output: dist-mcpb/server.mcpb — upload via smithery.ai/new (Local tab)
-// or: smithery mcp publish ./dist-mcpb/server.mcpb -n caravaca-labs/puzzletide
+// Output: dist-mcpb/server.mcpb
 
 import { execSync } from 'node:child_process';
 import fs from 'node:fs';
